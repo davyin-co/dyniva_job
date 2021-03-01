@@ -1,0 +1,16 @@
+uuid: ea86d9fb-0264-42b3-8741-0e214413fc1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.job_category
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.job_category
+target_entity_type_id: taxonomy_term
+target_bundle: job_category
+default_langcode: site_default
+language_alterable: true

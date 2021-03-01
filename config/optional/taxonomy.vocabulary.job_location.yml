@@ -1,0 +1,8 @@
+uuid: b0230bde-a6b9-4309-9abb-3e6630bcb7ab
+langcode: en
+status: true
+dependencies: {  }
+name: 'Job location'
+vid: job_location
+description: ''
+weight: 0

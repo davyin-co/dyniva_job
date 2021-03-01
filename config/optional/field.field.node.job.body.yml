@@ -1,0 +1,28 @@
+uuid: d0b02c86-0f49-4cfe-a08f-5a1b96b80d7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.job
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    rich_text: '0'
+    plain_text: '0'
+id: node.job.body
+field_name: body
+entity_type: node
+bundle: job
+label: 'Job description'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

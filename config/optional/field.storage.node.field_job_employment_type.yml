@@ -1,0 +1,20 @@
+uuid: 5ca60a23-6d79-42a7-a236-edef76da74da
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_job_employment_type
+field_name: field_job_employment_type
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

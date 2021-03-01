@@ -1,0 +1,28 @@
+uuid: 3008be7a-e1c8-4086-96d1-dd115f48c1de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_job_qualification
+    - node.type.job
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    rich_text: '0'
+    plain_text: '0'
+id: node.job.field_job_qualification
+field_name: field_job_qualification
+entity_type: node
+bundle: job
+label: Qualification
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

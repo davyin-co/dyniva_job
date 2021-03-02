@@ -15,4 +15,5 @@ dependencies:
   - text
   - content_translation
   - language
+  - media_library
   - user

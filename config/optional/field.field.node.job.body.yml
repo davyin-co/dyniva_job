@@ -6,12 +6,7 @@ dependencies:
     - field.storage.node.body
     - node.type.job
   module:
-    - allowed_formats
     - text
-third_party_settings:
-  allowed_formats:
-    rich_text: '0'
-    plain_text: '0'
 id: node.job.body
 field_name: body
 entity_type: node

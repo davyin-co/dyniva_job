@@ -6,12 +6,7 @@ dependencies:
     - field.storage.node.field_job_qualification
     - node.type.job
   module:
-    - allowed_formats
     - text
-third_party_settings:
-  allowed_formats:
-    rich_text: '0'
-    plain_text: '0'
 id: node.job.field_job_qualification
 field_name: field_job_qualification
 entity_type: node

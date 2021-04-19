@@ -1,13 +1,11 @@
 
 {
-    "name": "davyin/dyniva_job",
-    "description": "dyniva_job for drupal 8 +.",
+    "name": "davyin/dyniva_jobs",
+    "description": "dyniva_jobs for drupal 8 +.",
     "type": "drupal-custom-module",
     "license": "GPL-2.0-or-later",
-    "homepage": "https://github.com/davyin-co/dyniva_job",
+    "homepage": "https://github.com/davyin-co/dyniva_jobs",
     "require": {
-        "drupal/core": "^8.6 || ^9",
-         "drupal/field_group": "^3.1",
-         "drupal/views_add_button": "^1.6"
+        "drupal/core": "^8.6 || ^9"
     }
 }
